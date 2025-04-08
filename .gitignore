@@ -1,1 +1,19 @@
 node_modules
+
+# Ignore build output
+dist/
+
+# Ignore local environment files
+.env
+
+# Ignore Netlify specific files
+.netlify/
+
+# Ignore temporary files
+*.log
+*.tmp
+*.bak
+
+# Ignore system files
+.DS_Store
+Thumbs.db
