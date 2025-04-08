@@ -1,0 +1,417 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Section from '../components/Section.astro';
+import StatCard from '../components/StatCard.astro';
+---
+
+<Layout title="The Future of Marketing | Western Continuing Studies Research Project">
+  <!-- Hero Section -->
+  <Section background="gradient" class="pt-32 pb-20 relative">
+    <div class="absolute inset-0 z-0 opacity-20">
+      <img 
+        src="https://www.schoolfinder.com/Graphics/Schools/University/Banner/utuwo08.jpg"
+        alt="University of Western Ontario Campus"
+        class="w-full h-full object-cover"
+      />
+    </div>
+    <div class="text-center max-w-4xl mx-auto relative z-10">
+      <h1 class="heading-xl mb-6">
+        <span class="bg-gradient-to-r from-primary to-secondary text-transparent bg-clip-text">
+          The Future of Marketing
+        </span>
+        <span class="block text-2xl mt-4 font-normal text-gray-700">A Research Project on AI's Transformative Impact</span>
+      </h1>
+      <p class="text-xl text-gray-600 mb-6">
+        This comprehensive analysis explores how artificial intelligence is revolutionizing marketing strategies, backed by extensive research and real-world case studies from industry leaders.
+      </p>
+      <p class="text-lg text-gray-600 mb-12">
+        From a $390 billion market today to a projected $826 billion by 2030 (IDC, 2024), AI is reshaping how brands connect with consumers. Explore our research findings and industry case studies to understand this transformation.
+      </p>
+      <div class="flex justify-center gap-4">
+        <a href="/research" class="btn-primary">View Research</a>
+        <a href="/case-studies" class="btn-secondary">See Case Studies</a>
+      </div>
+    </div>
+  </Section>
+
+  <!-- About the Research Section -->
+  <Section background="white" class="pb-12">
+    <div class="max-w-4xl mx-auto">
+      <div class="flex items-center gap-8 mb-12">
+        <img 
+          src="https://pbs.twimg.com/profile_images/1327348564658434050/IGT87E6l_400x400.jpg"
+          alt="University of Western Ontario Logo"
+          class="w-24 h-24 object-contain"
+        />
+        <div>
+          <h2 class="text-2xl font-semibold text-gray-800">Western Continuing Studies</h2>
+          <p class="text-lg text-gray-600">London, Canada</p>
+        </div>
+      </div>
+      <div class="card bg-gradient-to-r from-gray-50 to-gray-100">
+        <div class="flex items-center gap-8">
+          <img 
+            src="https://media.licdn.com/dms/image/v2/D4E03AQEC4CIFjjGULg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1726324836830?e=2147483647&v=beta&t=MaE07a4Zs7nDh_ij6sSu515TiAss0hYJho7X_VDNNMU"
+            alt="Isaac Gounton"
+            class="w-32 h-32 rounded-full object-cover"
+          />
+          <div>
+            <h3 class="text-xl font-semibold text-gray-800">Isaac Gounton</h3>
+            <p class="text-lg text-gray-600 mb-2">Post-Degree Diploma, Marketing</p>
+            <p class="text-gray-600">
+              A comprehensive analysis of artificial intelligence's transformative impact on modern marketing strategies and practices.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </Section>
+
+  <!-- Research Overview Section -->
+  <Section background="white">
+    <div class="grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <h2 class="heading-lg mb-6">Research Overview</h2>
+        <div class="space-y-6">
+          <div class="card">
+            <h3 class="text-xl font-semibold text-primary mb-2">Comprehensive Analysis</h3>
+            <p class="text-gray-600">Our research examines AI's impact across key marketing functions, from content creation to customer engagement, backed by data from leading industry sources and academic institutions.</p>
+          </div>
+          <div class="card">
+            <h3 class="text-xl font-semibold text-primary mb-2">Industry Case Studies</h3>
+            <p class="text-gray-600">In-depth analysis of successful AI implementations at major brands, including Mastercard's real-time trend analysis and Sephora's AI-powered personalization system.</p>
+          </div>
+          <div class="card">
+            <h3 class="text-xl font-semibold text-primary mb-2">Future Implications</h3>
+            <p class="text-gray-600">Strategic insights into how AI will reshape marketing practices through 2035, with detailed implementation roadmaps and industry-specific impact analysis.</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <img 
+          src="https://imgen.x.ai/xai-imgen/xai-tmp-imgen-1f1ac3ed-1a20-4260-9acb-41ad02851c9e.jpeg"
+          alt="AI Marketing Technology Visualization"
+          class="rounded-2xl shadow-lg"
+        />
+      </div>
+    </div>
+  </Section>
+
+  <!-- Key Stats -->
+  <Section id="stats" background="gray">
+    <div class="text-center mb-16">
+      <h2 class="heading-lg mb-4">Market Growth & Impact</h2>
+      <p class="text-xl text-gray-600">Key statistics that showcase the transformative power of AI in marketing</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <StatCard 
+        title="Market Size by 2030"
+        value="$826B"
+        description="Global AI market growth from $390B base"
+      />
+      <StatCard 
+        title="Content Cost Reduction"
+        value="60%"
+        description="Average reduction in content production costs with AI"
+      />
+      <StatCard 
+        title="Campaign Engagement"
+        value="45%"
+        description="Average increase in AI-driven campaign engagement"
+      />
+      <StatCard 
+        title="AI Adoption"
+        value="72%"
+        description="Organizations using generative AI in business functions"
+      />
+    </div>
+    <div class="mt-16 max-w-4xl mx-auto">
+      <div class="card p-8">
+        <div class="aspect-video rounded-lg overflow-hidden bg-gray-100 flex items-center justify-center">
+          <img src="https://quickchart.io/chart?c=%7Btype%3A%27bar%27%2Cdata%3A%7Blabels%3A%5B%272025%27%2C%272026%27%2C%272027%27%2C%272028%27%2C%272029%27%2C%272030%27%5D%2Cdatasets%3A%5B%7Blabel%3A%27AI%20Market%20(%24B)%27%2Cdata%3A%5B390%2C480%2C570%2C660%2C740%2C826%5D%2CbackgroundColor%3A%27rgba(37%2C99%2C235%2C0.6)%27%7D%5D%7D%2Coptions%3A%7Btitle%3A%7Bdisplay%3Atrue%2Ctext%3A%27Global%20AI%20Market%20Growth%20Projection%27%7D%2Cscales%3A%7By%3A%7Btitle%3A%7Bdisplay%3Atrue%2Ctext%3A%27Market%20Value%20(%24B)%27%7D%7D%7D%7D%7D&width=800&height=400&backgroundColor=white" alt="AI Market Growth Chart" class="w-full h-full object-contain rounded-lg" />
+        </div>
+      </div>
+    </div>
+  </Section>
+
+  <!-- Core Innovation Areas -->
+  <Section id="innovations" background="white">
+    <div class="text-center mb-16">
+      <h2 class="heading-lg mb-4">Core Innovation Areas</h2>
+      <p class="text-xl text-gray-600">Key technologies transforming marketing through AI</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+      <div class="card">
+        <div class="flex items-start gap-6">
+          <img src="https://pixabay.com/get/g9d06623fb87d7b68dcb12315cdf383c577b5f9a16e13968859d25eafe94c8d3b988bf757d4ebb2f4ad4280e03fffa301b4363719cb528c52a0c54a34ff44868f_1280.jpg" alt="Hyper-Personalization" class="w-24 h-24 rounded-lg object-cover" />
+          <div>
+            <h3 class="text-xl font-semibold text-primary mb-2">Hyper-Personalization</h3>
+            <p class="text-gray-600 mb-4">Advanced AI systems deliver individualized experiences by analyzing biometric data, behavioral patterns, and emotional responses in real-time (MIT Technology Review, 2024).</p>
+            <div class="flex flex-wrap gap-2">
+              <span class="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">25% conversion increase</span>
+              <span class="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">78% neural tracking adoption</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="flex items-start gap-6">
+          <img src="https://pixabay.com/get/g4aa4fd69420604b418d421da0bd40f7b6e12ec44e8eb15cea69dbe0508e47c7b299b68aca44d268737b2c1a2298ee59cb7ff4ed124e423270b5294cd5d649136_1280.jpg" alt="Generative AI" class="w-24 h-24 rounded-lg object-cover" />
+          <div>
+            <h3 class="text-xl font-semibold text-primary mb-2">Generative AI Applications</h3>
+            <p class="text-gray-600 mb-4">AI content creation tools reduce production costs while increasing engagement through highly targeted, personalized messaging at scale (Deloitte, 2024).</p>
+            <div class="flex flex-wrap gap-2">
+              <span class="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">60% cost reduction</span>
+              <span class="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">40% higher engagement rates</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="flex items-start gap-6">
+          <img src="https://pixabay.com/get/g00dd2162ebd1afac0b212c3952012ea3935d63ec7f606bd5fde70791d376f6b85a9254cfe1f9b707f3bc811cfb31c9b1670864a98cc70e9e80599e35fd81c330_1280.jpg" alt="Autonomous Marketing" class="w-24 h-24 rounded-lg object-cover" />
+          <div>
+            <h3 class="text-xl font-semibold text-primary mb-2">Autonomous Marketing Systems</h3>
+            <p class="text-gray-600 mb-4">By 2030, 88% of media buys will be AI-managed, with 95% of routine customer interactions handled by AI by 2035 (Gartner, 2024).</p>
+            <div class="flex flex-wrap gap-2">
+              <span class="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">35% lower acquisition costs</span>
+              <span class="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">61% support cost reduction</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="flex items-start gap-6">
+          <img src="https://pixabay.com/get/gc208b5d8c4c529e4da7c7347c1c491dbe5cf8a634b444f38b4d6f6a371d706186246d44c716a201908a36341158ca154b08ad5253c16b689eeb3c3a4ceb9f198_1280.png" alt="Ethical AI" class="w-24 h-24 rounded-lg object-cover" />
+          <div>
+            <h3 class="text-xl font-semibold text-primary mb-2">Ethical AI & Transparency</h3>
+            <p class="text-gray-600 mb-4">New frameworks and blockchain-based solutions ensure transparent, ethical AI use in marketing campaigns, addressing growing consumer concerns (World Economic Forum, 2024).</p>
+            <div class="flex flex-wrap gap-2">
+              <span class="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">83% bias reduction</span>
+              <span class="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">127 countries with AI laws</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </Section>
+
+  <!-- Emerging Technologies Section -->
+  <Section id="technologies" background="gray">
+    <div class="text-center mb-16">
+      <h2 class="heading-lg mb-4">Emerging Technologies</h2>
+      <p class="text-xl text-gray-600">Revolutionary technologies shaping the future of marketing</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="card">
+        <h3 class="text-xl font-semibold text-primary mb-4">Neuro-Marketing</h3>
+        <img src="https://pixabay.com/get/g385b56abbd19a30d9797b59da389d9a4a36077b501e4d29b022b0f4ddca6db7058f54c5fe0626f188ec4fff218dc02acf80a44dd1f1b077278d789ceefbc7a3e_1280.jpg" alt="Neuro-Marketing" class="rounded-lg mb-4 w-full h-48 object-cover" />
+        <ul class="space-y-3 text-gray-600">
+          <li class="flex items-start">
+            <span class="text-primary mr-2">→</span>
+            EEG-based creative testing (89% accuracy)
+          </li>
+          <li class="flex items-start">
+            <span class="text-primary mr-2">→</span>
+            Real-time emotion recognition
+          </li>
+          <li class="flex items-start">
+            <span class="text-primary mr-2">→</span>
+            Biometric response tracking
+          </li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3 class="text-xl font-semibold text-primary mb-4">Mixed Reality Integration</h3>
+        <img src="https://pixabay.com/get/g47339ab83954868a7ec2af96360f25998a79be1e85b4b2c4a6ceb1724f63b0c1bb06a218ec9a52264b9b9d4462d6cfc2848945e61e35c81818bf4b7f175c2a30_1280.jpg" alt="Mixed Reality" class="rounded-lg mb-4 w-full h-48 object-cover" />
+        <ul class="space-y-3 text-gray-600">
+          <li class="flex items-start">
+            <span class="text-primary mr-2">→</span>
+            Holographic AR campaigns (28% engagement boost)
+          </li>
+          <li class="flex items-start">
+            <span class="text-primary mr-2">→</span>
+            Virtual try-on solutions
+          </li>
+          <li class="flex items-start">
+            <span class="text-primary mr-2">→</span>
+            Immersive brand experiences
+          </li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3 class="text-xl font-semibold text-primary mb-4">Decentralized AI</h3>
+        <img src="https://pixabay.com/get/g00d6a4b947a335466e2811d0d0d0f212640c00b3c87b6121f7c87c86d70d8231ebb0ca929ece111049648ac5b645472d5fada452338873988bf9dc047865ad22_1280.jpg" alt="Decentralized AI" class="rounded-lg mb-4 w-full h-48 object-cover" />
+        <ul class="space-y-3 text-gray-600">
+          <li class="flex items-start">
+            <span class="text-primary mr-2">→</span>
+            AI marketplaces reducing costs by 41%
+          </li>
+          <li class="flex items-start">
+            <span class="text-primary mr-2">→</span>
+            Blockchain-verified ad delivery
+          </li>
+          <li class="flex items-start">
+            <span class="text-primary mr-2">→</span>
+            Community-trained marketing models
+          </li>
+        </ul>
+      </div>
+    </div>
+  </Section>
+
+  <!-- Industry Impact Section -->
+  <Section id="impact" background="white">
+    <div class="text-center mb-16">
+      <h2 class="heading-lg mb-4">Industry-Specific Impact</h2>
+      <p class="text-xl text-gray-600">How AI is transforming marketing across different sectors</p>
+    </div>
+    <div class="grid md:grid-cols-2 gap-12">
+      <div>
+        <div class="text-center mb-8">
+          <div class="card p-6 bg-gradient-to-r from-primary/10 to-secondary/10">
+            <h3 class="text-xl font-semibold text-primary mb-4">Industry AI Adoption Rates</h3>
+            <div class="grid grid-cols-2 gap-4">
+              <div class="p-3 bg-white/50 rounded-lg">
+                <div class="text-2xl font-bold text-primary">32%</div>
+                <div class="text-gray-600">Tech Sector</div>
+              </div>
+              <div class="p-3 bg-white/50 rounded-lg">
+                <div class="text-2xl font-bold text-primary">28%</div>
+                <div class="text-gray-600">Retail</div>
+              </div>
+              <div class="p-3 bg-white/50 rounded-lg">
+                <div class="text-2xl font-bold text-primary">22%</div>
+                <div class="text-gray-600">Finance</div>
+              </div>
+              <div class="p-3 bg-white/50 rounded-lg">
+                <div class="text-2xl font-bold text-primary">18%</div>
+                <div class="text-gray-600">Healthcare</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="space-y-6">
+          <div class="card">
+            <h3 class="text-xl font-semibold text-primary mb-2">B2B Tech</h3>
+            <p class="text-gray-600">Complex sales cycle optimization, account-based marketing automation, and predictive lead scoring are revolutionizing how tech companies approach marketing.</p>
+          </div>
+          <div class="card">
+            <h3 class="text-xl font-semibold text-primary mb-2">E-commerce</h3>
+            <p class="text-gray-600">Dynamic pricing optimization, visual search integration, and inventory prediction are creating more efficient and personalized shopping experiences.</p>
+          </div>
+          <div class="card">
+            <h3 class="text-xl font-semibold text-primary mb-2">Finance</h3>
+            <p class="text-gray-600">Risk-aware marketing automation, compliance-first content generation, and personalized financial product recommendations are transforming customer engagement.</p>
+          </div>
+          <div class="card">
+            <h3 class="text-xl font-semibold text-primary mb-2">Retail</h3>
+            <p class="text-gray-600">In-store behavior analysis, smart shelf technology, and unified online-offline experiences are creating seamless customer journeys.</p>
+          </div>
+        </div>
+      </div>
+      <div class="space-y-8">
+        <h3 class="heading-md">Success Metrics</h3>
+        <div class="space-y-6">
+          <div class="card bg-gradient-to-r from-primary to-secondary text-white">
+            <h4 class="font-semibold mb-2">Engagement Metrics</h4>
+            <ul class="space-y-2">
+              <li>→ 28% higher engagement rates</li>
+              <li>→ 37% faster response times</li>
+              <li>→ 40% increase in qualified leads</li>
+            </ul>
+          </div>
+          <div class="card bg-gradient-to-r from-secondary to-accent text-white">
+            <h4 class="font-semibold mb-2">Efficiency Metrics</h4>
+            <ul class="space-y-2">
+              <li>→ 60% reduced content costs</li>
+              <li>→ 61% lower support costs</li>
+              <li>→ 67% efficiency improvement</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </Section>
+
+  <!-- Roadmap Section -->
+  <Section id="roadmap" background="gray">
+    <div class="text-center mb-16">
+      <h2 class="heading-lg mb-4">Implementation Roadmap</h2>
+      <p class="text-xl text-gray-600">Strategic phases for adopting AI in marketing</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="card">
+        <h3 class="text-xl font-semibold text-primary mb-2">Phase 1: Foundation</h3>
+        <p class="text-lg text-secondary mb-4">2025-2027</p>
+        <img src="https://pixabay.com/get/g7d466cbb5f11f798faaad4be03e792abb25b762600aa9a92fb2a1a111751673efb2e2aaf1b859dbadb92fed0507b469e82332a95eb76cd4b79929dde88ba0d57_1280.jpg" alt="Foundation Phase" class="rounded-lg mb-4 w-full h-48 object-cover" />
+        <ul class="space-y-3 text-gray-600">
+          <li class="flex items-start">
+            <span class="text-primary mr-2">→</span>
+            Data infrastructure optimization
+          </li>
+          <li class="flex items-start">
+            <span class="text-primary mr-2">→</span>
+            AI literacy training
+          </li>
+          <li class="flex items-start">
+            <span class="text-primary mr-2">→</span>
+            Basic automation implementation
+          </li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3 class="text-xl font-semibold text-primary mb-2">Phase 2: Advanced Integration</h3>
+        <p class="text-lg text-secondary mb-4">2028-2030</p>
+        <img src="https://pixabay.com/get/g6a2e6f0ba95b6f2d11fa0c2c887b67b975a60357cea8901f8f3d41b16bed7f50b12e39aa778d00d321cff646abea7cd90688102a2b95c012547109103dda4a12_1280.jpg" alt="Advanced Integration" class="rounded-lg mb-4 w-full h-48 object-cover" />
+        <ul class="space-y-3 text-gray-600">
+          <li class="flex items-start">
+            <span class="text-primary mr-2">→</span>
+            Neural networks deployment
+          </li>
+          <li class="flex items-start">
+            <span class="text-primary mr-2">→</span>
+            Real-time personalization
+          </li>
+          <li class="flex items-start">
+            <span class="text-primary mr-2">→</span>
+            Ethical AI framework adoption
+          </li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3 class="text-xl font-semibold text-primary mb-2">Phase 3: Innovation</h3>
+        <p class="text-lg text-secondary mb-4">2031-2035</p>
+        <img src="https://pixabay.com/get/g2238f468721b5f7a953e3d4b22c0ad3d89d4e165abba9d0e84898ad68f9e5bc465bee7bc77573bd1cfad302752b5c31a711ba4c2127a1b74e79682a08ecefc89_1280.jpg" alt="Innovation Phase" class="rounded-lg mb-4 w-full h-48 object-cover" />
+        <ul class="space-y-3 text-gray-600">
+          <li class="flex items-start">
+            <span class="text-primary mr-2">→</span>
+            Autonomous marketing systems
+          </li>
+          <li class="flex items-start">
+            <span class="text-primary mr-2">→</span>
+            Biometric integration
+          </li>
+          <li class="flex items-start">
+            <span class="text-primary mr-2">→</span>
+            Decentralized AI adoption
+          </li>
+        </ul>
+      </div>
+    </div>
+  </Section>
+
+  <!-- Conclusion Section -->
+  <Section background="white">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="heading-lg mb-6">The Future is AI-Powered</h2>
+      <p class="text-xl text-gray-600 mb-8">
+        AI is no longer optional in marketing—it's essential for scale, personalization, and efficiency. Brands embracing AI will lead the next decade, while those who ignore it risk falling behind. The future belongs to marketers who combine AI's power with human creativity and ethical responsibility.
+      </p>
+      <div class="flex justify-center gap-4">
+        <a href="/research" class="btn-primary">Explore the Research</a>
+        <a href="/research#references" class="btn-secondary">View Sources</a>
+      </div>
+    </div>
+  </Section>
+</Layout>
